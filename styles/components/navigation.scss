@@ -1,0 +1,29 @@
+.navigation {
+    margin: 25px 0;
+    display: flex;
+    a {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    position: relative;
+    color: white;
+    }
+    .nav-active {
+    &::after {
+    content: "";
+    width: 80%;
+    height: 6px;
+    background:white;
+    
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+    }
+    button{
+        border: none;
+        background-color: rgb(62, 63, 63);
+        color: white;
+    }
+    }

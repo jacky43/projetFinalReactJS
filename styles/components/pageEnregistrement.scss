@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(29, 28, 28);
+}
+.page-enregistrement{
+    img{
+     margin-bottom: 60px;
+    }
+     
+ 
+     .formulaire{
+         h1{
+             text-align: center;
+             margin-bottom: 20px;
+             color: white;
+         }
+         .champ{
+             margin-bottom: 10px;
+             padding: 10px
+         }
+         input[type="email"],input[type="password"], input[type="text"], input[type="date"]{
+             width: 300px;
+             margin: 0 auto;
+             background-color: black;
+             color: white;
+            
+         }
+         input[type="submit"]{
+             margin-left: 110px;
+             width: 400px;
+             height: 40px;
+             color: white;
+         }
+         button{
+            margin-left: 110px;
+            width: 400px;
+            height: 40px;
+            color: white;
+         }
+         margin: 0 auto;
+         height: 50%;
+         width: 50%;
+         background-color: rgb(35, 36, 36);
+     }
+ }

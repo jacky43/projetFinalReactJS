@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(29, 28, 28);
+}
+.affiche-categorie{
+
+    .container-logo{
+        width: 1300px;
+        height: 100px;
+        background-color: rgb(62, 63, 63);
+        margin-bottom: 160px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .right{
+            button{
+                margin-right: 5px;
+                margin-left: 5px;
+            }
+        }
+        .left{
+            button{
+                margin-left: 8px;
+            }
+        }
+    }
+    .keywork{
+        
+        margin-left: 1100px;
+        margin-bottom: 200px;
+    }
+    display: wrap;
+    justify-content: space-between;
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .card-movies {
+            height: 300px;
+            position: relative;
+            margin: 2px;
+          
+            &:hover {
+                transform: scale(1.5);
+                z-index: 1;
+            }
+        
+            img{
+                height: 300px;
+                width: 200px;
+                object-fit: cover;
+            }
+        
+            
+        }
+
+    
+        .transform{
+             transform-origin: left center;
+        text-align: center;
+        transform:  rotateY(30deg);
+        margin-bottom: 310px;
+        position: relative;
+        animation: mymove  infinite;
+            
+        @keyframes mymove {
+            from {left: 0px;}
+            to {left: 300px;}
+            
+            }
+            text-align: center;
+            margin-bottom: 310px;
+            position: relative;
+            animation: mymove 5s infinite;
+        }
+    }
+}

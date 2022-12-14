@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(29, 28, 28);
+    color: white;
+}
+.account-details{
+   
+    .container-logo{
+        width: 1300px;
+        height: 100px;
+        background-color: rgb(62, 63, 63);
+        margin-bottom: 160px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .right{
+            button{
+                margin-right: 5px;
+                margin-left: 5px;
+            }
+        }
+        .left{
+            button{
+                margin-left: 8px;
+            }
+        }
+    }
+    .information{
+       
+        text-align: center;
+        margin: 0 auto;
+        width: 60%;
+        height: 500px;
+        background-color: rgb(62, 63, 63);
+       p{
+        color: white;
+       }
+       .btn {
+        margin-bottom: 30px;
+        button{
+            margin: 0 auto;
+            width: 400px;
+            margin-bottom: 20px;
+        }
+       }
+       input{
+        background-color: black;
+        color: white;
+       }
+    }
+   
+}

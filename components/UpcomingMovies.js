@@ -1,0 +1,13 @@
+import React from "react";
+
+const UpComingMovies = (props) => {
+
+    const { upCome,onClickMovies } = props;
+    return (
+        <div className="card-movies"  onClick={onClickMovies} >
+            <img src={`https://image.tmdb.org/t/p/original${upCome.poster_path}`} />
+        </div>
+    )
+}
+
+export default UpComingMovies;

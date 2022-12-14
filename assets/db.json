@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "dateBorn": "",
+      "address": "",
+      "password": ""
+    },
+    {
+      "firstName": "jacky",
+      "lastName": "kemajou",
+      "email": "jackymessi@gmail.com",
+      "dateBorn": "2000-12-01",
+      "address": "92 Rue Bisson",
+      "password": "jacky10",
+      "id": 1
+    },
+    {
+      "firstName": "mohamed",
+      "lastName": "ben",
+      "email": "mohamed@gmail.com",
+      "dateBorn": "2002-12-01",
+      "address": "52 rue la flame",
+      "password": "123456mohamed",
+      "id": 2
+    }
+  ],
+  "movies": [
+    {
+      "id": 0,
+      "title": "",
+      "poster_path": "",
+      "release_date": "",
+      "userId": 0
+    },
+    {
+      "title": "The Woman King",
+      "lasposter_path": "/lQMJHnHxUyj8kJlC2YOKNuzuwMP.jpg",
+      "release_date": "2022-09-15",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "title": "The Minute You Wake Up Dead",
+      "lasposter_path": "/pUPwTbnAqfm95BZjNBnMMf39ChT.jpg",
+      "release_date": "2022-11-04",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "title": "R.I.P.D. 2: Rise of the Damned",
+      "lasposter_path": "/g4yJTzMtOBUTAR2Qnmj8TYIcFVq.jpg",
+      "release_date": "2022-11-15",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "title": "Final Fantasy VII: Advent Children",
+      "lasposter_path": "/pTIXM2yu8McSlcQVs1VjVSNC45x.jpg",
+      "release_date": "2005-07-14",
+      "userId": 1,
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+.card-movies-wish-movies {
+    height: 450px;
+    position: relative;
+    width: 300px;
+    margin: 2px;
+    background-color: rgb(62, 63, 63);
+    border-radius: 30px;
+    
+    .picture{
+        img{
+            height: 300px;
+            width: 200px;
+            margin-left: 50px;
+            margin-top: 70px;
+        }
+    }
+    
+   .boutton{
+    button{
+        margin-top: 20px;
+        width: 150px;
+       margin-left: 80px;
+    }
+   }
+    
+}

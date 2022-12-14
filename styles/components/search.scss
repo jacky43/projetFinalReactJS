@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(29, 28, 28);
+}
+.search{
+    .keywork{
+        
+        margin-top: -120px;
+        input{
+            margin-left: 1100px;
+            background-color: black;
+            color: white;
+        }
+    }
+    display: wrap;
+    justify-content: space-between;
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 150px;
+        margin-bottom: 50px;
+        .card-movies {
+            height: 300px;
+            position: relative;
+            margin: 2px;
+          
+            &:hover {
+                transform: scale(1.5);
+                z-index: 1;
+            }
+        
+            img{
+                height: 300px;
+                width: 200px;
+                object-fit: cover;
+            }
+        
+            
+        }
+
+    
+        .transform{
+             transform-origin: left center;
+        text-align: center;
+        transform:  rotateY(30deg);
+        margin-bottom: 310px;
+        position: relative;
+        animation: mymove  infinite;
+            
+        @keyframes mymove {
+            from {left: 0px;}
+            to {left: 300px;}
+            
+            }
+            text-align: center;
+            margin-bottom: 310px;
+            position: relative;
+            animation: mymove 5s infinite;
+        }
+    }
+}
